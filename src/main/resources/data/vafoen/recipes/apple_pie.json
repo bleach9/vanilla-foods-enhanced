@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#S#",
+    " E "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:apple"
+    },
+    "S": {
+      "item": "minecraft:sugar"
+    },
+    "E": {
+      "item": "minecraft:egg"
+    }
+  },
+  "result": {
+    "item": "vafoen:apple_pie",
+    "count": 1
+  }
+}
