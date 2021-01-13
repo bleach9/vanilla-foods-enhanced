@@ -5,4 +5,4 @@ This simple Minecraft 1.16.4 mod, which requires the _Fabric_ modloader relying 
 
 More information on the CurseForge page!
 
-![Vafoen Logo](https://github.com/oPikaboo/vanilla-foods-enhanced/blob/main/media/vafoen.png?raw=true)
+![Vafoen Logo](https://github.com/oPikaboo/vanilla-foods-enhanced/tree/main/media/vafoen.png?raw=true)
