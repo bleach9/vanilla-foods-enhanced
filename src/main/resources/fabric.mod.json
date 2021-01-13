@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "vafoen",
+  "version": "${version}",
+
+  "name": "Vanilla Food Enhanced",
+  "description": "A Fabric mod focusing on adding food items & blocks, that should've been in the game.",
+  "authors": [
+    "oPikaboo"
+  ],
+  "contact": {
+    "homepage": "https://github.com/oPikaboo/vanilla-foods-enhanced",
+    "sources": "https://github.com/oPikaboo/vanilla-foods-enhanced"
+  },
+
+  "license": "MIT",
+  "icon": "assets/vafoen.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "vanilla.foods.enhanced.Vafoen"
+    ]
+  },
+
+  "depends": {
+    "fabricloader": "*",
+    "minecraft": "*",
+    "fabric": "*"
+  }
+}
