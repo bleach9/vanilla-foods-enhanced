@@ -1,6 +1,6 @@
 {
 	"credit": "Made with Blockbench",
-	"parent": "block/block",
+	"parent": "vafoen:block/orientable",
 	"ambientocclusion": false,
 	"textures": {
 		"0": "vafoen:block/eggblock/egg_block1",

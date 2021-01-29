@@ -2,6 +2,7 @@ package vanilla.foods.enhanced.registry.block;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
+import net.minecraft.item.AliasedBlockItem;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
@@ -22,11 +23,8 @@ public class FoodBlocks extends Block{
 
     public static void foodBlocksRegistry() {
         Registry.register(Registry.BLOCK, new Identifier(Vafoen.MOD_ID, "egg_block"), EGG_BLOCK);
-        Registry.register(Registry.ITEM, new Identifier(Vafoen.MOD_ID, "egg_block"), new BlockItem(EGG_BLOCK, new Item.Settings().group(ItemGroup.BUILDING_BLOCKS)));
+        Registry.register(Registry.ITEM, new Identifier(Vafoen.MOD_ID, "egg_block"), new BlockItem(EGG_BLOCK, new Item.Settings().group(ItemGroup.DECORATIONS)));
         Registry.register(Registry.BLOCK, new Identifier(Vafoen.MOD_ID, "chocolate_cake"), CHOCOLATE_CAKE);
-        Registry.register(Registry.ITEM, new Identifier(Vafoen.MOD_ID, "chocolate_cake"), new BlockItem(CHOCOLATE_CAKE, new Item.Settings().group(ItemGroup.BUILDING_BLOCKS)));
-
-
-
+        Registry.register(Registry.ITEM, new Identifier(Vafoen.MOD_ID, "chocolate_cake"), new BlockItem(CHOCOLATE_CAKE, new Item.Settings().group(ItemGroup.FOOD)));
     }
 }
